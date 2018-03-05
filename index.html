@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Mr Nibbles</title>
+<meta property="og:title" content="Play Mr Nibbles"/> 
+<meta property="og:image" content="fbicon.png"/> 
+<style type="text/css">
+
+html { 
+	background: url(background.png) no-repeat center top; 
+}
+
+body {
+	font-size: 12px;
+	font-family: arial, helvetica, sans-serif;
+	color: #333;
+}
+
+#contentContainer
+{
+	width:100%;
+	height: 100%; 
+	margin:0px 0 0 0;
+}
+
+#gameContainer 
+{
+	width:1024px;
+	height: 683px; 
+	margin:0px auto 0 auto; 
+	margin-top: 169px;
+	border:2px solid #21508c;
+}
+
+#badgesContainer
+{
+	width:485px;
+	margin:0px auto 0 auto; 
+	padding-top: 40px;
+}
+
+#facebookContainer
+{
+	width:400px;
+	margin:0px auto 0 auto; 
+	padding-top: 10px;
+}
+
+
+</style>
+
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=163944287062473";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="contentContainer">
+	<div id="gameContainer">
+		<object classid="clsid27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="1024" height="683">
+			<param name="movie" value="Main.swf">
+			<param name="quality" value="high">
+			<embed src="Main.swf" width="1024" height="683" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed>
+		</object>
+	</div>
+	<div id="badgesContainer">
+		<a href="http://itunes.apple.com/gb/app/mr-nibbles/id552109003?mt=8" target="_blank"><img border="0" src="AppStoreBadgeFree.png" height="80" title = "MrNibbles on the Appstore"></a>
+		<a href="https://play.google.com/store/apps/details?id=uk.co.mikecann.MrNibbles" target="_blank"><img border="0" src="GooglePlayBadge.png" height="80" title = "MrNibbles on Google Play"></a>
+	</div>
+	<div id="facebookContainer">
+		<div class="fb-like" data-href="https://www.facebook.com/mr.nibbles.game" data-send="true" data-width="450" data-show-faces="true"></div>
+	</div>
+</div>
+</body>
+</html>
